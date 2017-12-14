@@ -9,7 +9,7 @@ public class CajaShrodinger {
 		int totalperros = 0; //variable para el total de perros
 		int totalgatos = 0; //variable para el total de gatos
 		
-		//creaciÛn de los ojetos perro y gato
+		//creaci√≥n de los ojetos perro y gato
 		perro = new Perro("negros");
 		gato = new Gato("pardos");
 		
@@ -22,7 +22,7 @@ public class CajaShrodinger {
 				cajas[i]=gato;
 		}
 		
-		//bucle para ver quÈ hay en cada posiciÛn del array y volcar en las variables totales
+		//bucle para ver qu√© hay en cada posici√≥n del array y volcar en las variables totales
 		for(Animal anim:cajas) {
 			if(anim instanceof Perro)
 				totalperros = totalperros + 1;
@@ -32,11 +32,13 @@ public class CajaShrodinger {
 		
 		//Sentencias para la salida de consola
 		System.out.println("Abrimos la caja y suena: " + perro.comunica());
-		System.out.println("TambiÈn suena: " + gato.comunica());
+		System.out.println("Tambi√©n suena: " + gato.comunica());
 		System.out.println("En la caja hay: " + totalperros + " perros "
 							+ perro.getColor() + " y " + totalgatos + " gatos "
-							+ gato.getColor() + ". °Y est·n todos vivos!");		
+							+ gato.getColor() + ". ¬°Y est√°n todos vivos!");		
 		}
+		
+		system.out.println("ning√∫n perro o gato ha sufrido da√±os durante este experimento");
 	}
 	
 
