@@ -32,13 +32,14 @@ public class CajaShrodinger {
 		
 		//Sentencias para la salida de consola
 		System.out.println("Abrimos la caja y suena: " + perro.comunica());
-		System.out.println("TambiÃ©n suena: " + gato.comunica());
+		System.out.println("También suena: " + gato.comunica());
 		System.out.println("En la caja hay: " + totalperros + " perros "
 							+ perro.getColor() + " y " + totalgatos + " gatos "
-							+ gato.getColor() + ". Â¡Y estÃ¡n todos vivos!");		
+							+ gato.getColor() + ". ¡Y están todos vivos!");	
+		System.out.println("ningún perro o gato ha sufrido daños durante este experimento");
 		}
 		
-		system.out.println("ningÃºn perro o gato ha sufrido daÃ±os durante este experimento");
+		;
 	}
 	
 
