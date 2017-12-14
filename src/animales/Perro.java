@@ -10,7 +10,7 @@ public class Perro extends Animal {
 
 	@Override
 	public String comunica() {
-		sonido = "Â¡Guau, guau!";
+		sonido = "¡Guau, guau!";
 		return sonido;
 	}
 
